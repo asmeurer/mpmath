@@ -11,14 +11,14 @@ ctx = mpmath.fp
 # ctx = mpmath.mp
 
 ITERATIONS = 200
-POINTS = 4000000
+POINTS = 16000000
 ESCAPE_RADIUS = 8
 
 # Full plot
 r = float('-1.6259733936')
 i = float('-0.0000011318')
-RE = [r-1e-2, r+1e-2]
-IM = [i-1e-2, i+1e-2]
+RE = [r-2e-2, r+2e-2]
+IM = [i-2e-2, i+2e-2]
 
 # A pretty subplot
 #RE = [-0.96, -0.80]
