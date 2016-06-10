@@ -45,4 +45,4 @@ import math
 mapping = lambda i: (1 - math.atan(3*abs(i))/math.pi*2)*(cmath.phase(i)+math.pi)/(2*math.pi)
 
 ctx.cplot(mandelbrot, RE, IM, points=POINTS, verbose=1, color=lambda i:
-    (mapping(i), mapping(i), mapping(i)), file='fractal.png', dpi=1000)
+    (mapping(i), mapping(i), mapping(i)), file='fractal.png', dpi=4000)
