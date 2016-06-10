@@ -24,8 +24,7 @@ IM = [i-2e-2, i+2e-2]
 #RE = [-0.96, -0.80]
 #IM = [-0.35, -0.2]
 
-import numba
-@numba.jit
+
 def mandelbrot(z):
     c = z
     for i in range(ITERATIONS):
